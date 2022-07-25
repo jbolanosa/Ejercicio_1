@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "main aside"
+        "footer footer";
+
+    grid-template-columns: auto auto;
+}
+
+header {
+
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+    border: 2px solid black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+    
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}
