@@ -21,16 +21,15 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     list-style: none;
 }
     
 main {
     grid-area: main;
     border: 2px solid black;
-    margin-right: 40px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 140px;
 }
 
 aside {
