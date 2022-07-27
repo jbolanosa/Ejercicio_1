@@ -7,6 +7,9 @@
         "footer footer";
 
     grid-template-columns: auto auto;
+
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 header {
@@ -16,6 +19,7 @@ header {
 
 nav {
     grid-area: nav;
+    
 }
 
 nav ul {
