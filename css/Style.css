@@ -1,3 +1,7 @@
+body{
+    background-color: #b4e33d;
+}
+
 .container {
     display: grid;
     grid-template-areas:
@@ -56,6 +60,7 @@ main {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 70px;
+    background-color: white;
 }
 
 table{
@@ -82,11 +87,11 @@ aside {
     grid-area: aside;
     border-left: 2px solid;
     padding: 50px;
+    background-color: white;
 }
 
 footer {
     grid-area: footer;
-    border: 2px solid black;
     padding: 20px;
     background-color: #333;
     color: white;
