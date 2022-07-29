@@ -68,6 +68,16 @@ main {
     padding-right: 140px;
 }
 
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
 aside {
     grid-area: aside;
     border: 2px solid black;
