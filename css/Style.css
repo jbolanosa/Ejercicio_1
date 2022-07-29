@@ -5,11 +5,6 @@
         "nav nav"
         "main aside"
         "footer footer";
-
-    grid-template-columns: auto auto;
-
-    padding-left: 120px;
-    padding-right: 120px;
 }
 
 .container2 {
@@ -19,11 +14,6 @@
         "nav"
         "main"
         "footer";
-
-    grid-template-columns: auto;
-
-    padding-left: 120px;
-    padding-right: 120px;
 }
 
 header {
