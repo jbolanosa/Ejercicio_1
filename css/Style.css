@@ -63,7 +63,6 @@ li a:hover {
 
 main {
     grid-area: main;
-    border: 2px solid black;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 70px;
@@ -75,9 +74,14 @@ table{
 
 }
 
-table, th, tr, td{
+table, tr, td{
     border: 1px solid black;
     border-collapse: collapse;
+
+}
+
+tr :hover{
+    background-color:darkgray;
 }
 
 th {
@@ -86,7 +90,7 @@ th {
 
 aside {
     grid-area: aside;
-    border: 2px solid black;
+    border-left: 2px solid;
     padding: 50px;
 }
 
@@ -94,6 +98,8 @@ footer {
     grid-area: footer;
     border: 2px solid black;
     padding: 20px;
+    background-color: #333;
+    color: white;
 }
 
 p {
